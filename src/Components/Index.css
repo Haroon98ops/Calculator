@@ -1,0 +1,89 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 100vh;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 550px;
+  width: 700px;
+  background-color: rgb(47, 65, 95);
+  margin: 0 auto;
+  box-shadow: 0px 0px 9px 8px white;
+}
+.third {
+  background-color: rgb(189, 216, 241);
+  height: 450px;
+  width: 300px;
+  box-shadow: 0px 0px 10px 10px white;
+}
+.fourth {
+  height: 100px;
+  width: 260px;
+  background-color: rgb(93, 105, 122);
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.fourth:hover {
+  opacity: 0.8;
+}
+.fourth-contanier {
+  color: white;
+  text-align: right;
+  padding: 7px;
+}
+.fifth {
+  background-color: rgb(231, 99, 99);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border: none;
+  /* margin-left: 25px; */
+  /* margin-top: 10px; */
+  border-radius: 5px;
+}
+.sixth {
+  background-color: rgb(231, 99, 99);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border: none;
+  /* margin-left: 25px; */
+  /* margin-top: 10px; */
+  border-radius: 5px;
+}
+.seventh {
+  background-color: rgb(55, 83, 128);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border: none;
+  /* margin-left: 25px; */
+  /* margin-top: 10px; */
+  border-radius: 5px;
+}
+.eighth {
+  background-color: rgb(55, 83, 128);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border: none;
+  /* margin-left: 25px; */
+  /* margin-top: 10px; */
+  border-radius: 5px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.grid-container button:hover {
+  opacity: 0.8;
+  background-color: rgb(187, 7, 7);
+}
